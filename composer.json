@@ -1,0 +1,23 @@
+{
+    "name": "withremote/basemodel",
+    "description": "Base model for making mysql calls",
+    "license": "MIT",
+    "keywords": [
+        "PDO",
+        "Model"
+    ],
+    "authors": [
+        {
+            "name": "Nate Nolting",
+            "email": "me@natenolting.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Withremote\\BaseModel": "src/"
+        }
+    }
+}
